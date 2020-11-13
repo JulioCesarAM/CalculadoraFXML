@@ -1,13 +1,13 @@
 package dad.javafx.calculadora.modelo;
 
-public class CalculadoraO {
+public class Calculadora {
 	private char symbol;
 	private double total1;
 	private double auxTotal;
 	private Boolean comprobarSymbolo=false;
 	private StringBuilder pantalla = new StringBuilder();
 	
-	public CalculadoraO(){
+	public Calculadora(){
 		borradoTotal();
 	}
 	
